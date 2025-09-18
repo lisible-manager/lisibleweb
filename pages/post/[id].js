@@ -1,5 +1,14 @@
 import { useRouter } from "next/router";
+import Layout from "../../components/Layout";
+
 export default function PostPage() {
   const router = useRouter();
-  return <h1>Post: {router.query.id}</h1>;
+  const { id } = router.query;
+
+  return (
+    <Layout>
+      <h1>Lecture du Texte #{id}</h1>
+      <p>Contenu complet de l'œuvre...</p>
+    </Layout>
+  );
 }
