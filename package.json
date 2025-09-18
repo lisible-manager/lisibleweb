@@ -1,3 +1,7 @@
+---
+
+### 📄 package.json
+```json
 {
   "name": "lisible",
   "version": "1.0.0",
@@ -8,9 +12,9 @@
     "start": "next start"
   },
   "dependencies": {
+    "firebase": "^10.8.0",
     "next": "14.2.3",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "firebase": "10.11.0"
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
   }
 }
